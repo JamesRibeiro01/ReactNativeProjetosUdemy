@@ -1,26 +1,27 @@
 import { StyleSheet } from "react-native";
 
-
-const Estilos = StyleSheet.create({
-    Principal:{
+const estilos = StyleSheet.create({
+    container:{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
     },
-
-    botao:{
-        backgroundColor: '#538530',
+    botao1:{
+        marginTop: 20,
+        paddingHorizontal: 60,
         paddingVertical: 10,
-        paddingHorizontal: 40,
-        marginTop: 20
+        backgroundColor: 'green',
+        borderRadius: 100,
+        borderWidth: 1,
+        borderColor: '#FFF'
     },
 
-    textoBotao:{
-        color: 'white',
+    texto1:{
+        color: '#fff',
         fontSize: 16,
         fontWeight: 'bold'
     }
 })
 
 
-export default Estilos;
+export default estilos;
